@@ -1,12 +1,9 @@
-### Network Diagnostic and Tool Package Program
-* Required libraries before using:
-* pip install ntplib
-- for SNTP time synchronization
-- already between the program files but recommended to download anyway
-* pip install ifaddr
-- for listing the network interfaces and their IP addresses
-- https://github.com/ifaddr/ifaddr -> github repo link of the library
-
+# Network Diagnostic and Tool Package Program
+### Required libraries before using:
+* pip install ntplib : for SNTP time synchronization (already between the program files but recommended to download anyway)
+  
+* pip install ifaddr : for listing the network interfaces and their IP addresses <br>
+[github repo link of the library](https://github.com/ifaddr/ifaddr ) <br>
 * It developed on Windows environment with Python.
 * There are two versions of the program. Firstly it developed to run on terminal environment. Then a GUI designed and the terminal version adapted to this GUI version.
 * In GUI version, there is no seperate error management module. If there is an error or exception case, program throws error immediately.(terminal version does not have error management system.)
