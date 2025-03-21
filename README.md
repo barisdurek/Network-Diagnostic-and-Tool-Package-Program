@@ -1,13 +1,14 @@
 # Network Diagnostic and Tool Package Program
+* It developed on Windows environment with Python.
+* There are two versions of the program. Firstly it developed to run on terminal environment. Then a GUI designed and the terminal version adapted to this GUI version.
+* In GUI version, there is no seperate error management module. If there is an error or exception case, program throws error immediately.(terminal version does not have error management system.)
+* Note: If you try to run the code in Visual Studio Code, usually it gives error because of reading settings.json, so I recommend you to run the code on Windows terminal.
+
 ### Required libraries before using:
 * pip install ntplib : for SNTP time synchronization (already between the program files but recommended to download anyway)
   
 * pip install ifaddr : for listing the network interfaces and their IP addresses <br>
 [github repo link of the library](https://github.com/ifaddr/ifaddr ) <br>
-* It developed on Windows environment with Python.
-* There are two versions of the program. Firstly it developed to run on terminal environment. Then a GUI designed and the terminal version adapted to this GUI version.
-* In GUI version, there is no seperate error management module. If there is an error or exception case, program throws error immediately.(terminal version does not have error management system.)
-* Note: If you try to run the code in Visual Studio Code, usually it gives error because of reading settings.json, so I recommend you to run the code on Windows terminal.
 
 ### Program Details
 * The purpose of this program is to get a hands-on experience in basic socket programming, network diagnostics, time synchronization, and error management. In the program, small applications (such as machine information extraction, echo testing, SNTP client, socket settings, and error  management), which are developed separately, integrated to create a comprehensive network diagnostic tool.
