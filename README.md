@@ -4,7 +4,7 @@
 * In GUI version, there is no seperate error management module. If there is an error or exception case, program throws error immediately.(terminal version does not have error management system.)
 * Note: If you try to run the code in Visual Studio Code, usually it gives error because of reading settings.json, so I recommend you to run the code on Windows terminal.
 
-### Required libraries before using:
+### Required libraries before using
 * pip install ntplib : for SNTP time synchronization. (already between the program files but recommended to download anyway.)
   
 * pip install ifaddr : for listing the network interfaces and their IP addresses. <br>
