@@ -1,0 +1,6 @@
+{
+    "timeout": 50,
+    "blocking": 1,
+    "SEND_BUF_SIZE": 4096,
+    "RECV_BUF_SIZE": 2048
+}
