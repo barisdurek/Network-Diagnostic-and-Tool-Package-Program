@@ -19,27 +19,27 @@
 The program consists of the following four main modules:
 
 * Machine Information Module
-- This module gives local machine’s hostname, IP address, network interfaces, and related information.
+This module gives local machine’s hostname, IP address, network interfaces, and related information.
 
 * Echo Test Module 
-- Performs basic connection tests by setting up a simple echo client/server structure.
-- User selects if its client or server.
-- On the server side, creates a socket and listen on a specified port.
-- On the client side, connects to the server and receive the same data that was sent.
-- Compares the sent and received data.
-- Display the connection test result on the screen.
+Performs basic connection tests by setting up a simple echo client/server structure.
+User selects if its client or server.
+On the server side, creates a socket and listen on a specified port.
+On the client side, connects to the server and receive the same data that was sent.
+Compares the sent and received data.
+Display the connection test result on the screen.
 
 * SNTP Time Synchronization Module 
-- Retrieves the current time from an SNTP (Simple Network Time Protocol) server on the Internet.
-- Also shows your local computer's time information to compare with the SNTP.
+Retrieves the current time from an SNTP (Simple Network Time Protocol) server on the Internet.
+Also shows your local computer's time information to compare with the SNTP.
 
 * Simple Chat Module
-- Provides a basic chat environment for the user.
-- Allow the user to choose whether to run in server or client mode.
-- Establishes the connection. 
-- Transfers strings over the established connection and display them on the screen.
-- Displays chat messages on the screen and saves them to file messages.txt.
+Provides a basic chat environment for the user.
+Allow the user to choose whether to run in server or client mode.
+Establishes the connection. 
+Transfers strings over the established connection and display them on the screen.
+Displays chat messages on the screen and saves them to file messages.txt.
 
 * Settings Module 
-- Allows the users to change and display socket timeout, buffer size, blocking/non-blocking mode settings.
-- Settings part work with settings.json file. It reads the settings from json and if user change them, writes back to json file.
+Allows the users to change and display socket timeout, buffer size, blocking/non-blocking mode settings.
+Settings part work with settings.json file. It reads the settings from json and if user change them, writes back to json file.
