@@ -5,9 +5,9 @@
 * Note: If you try to run the code in Visual Studio Code, usually it gives error because of reading settings.json, so I recommend you to run the code on Windows terminal.
 
 ### Required libraries before using:
-* pip install ntplib : for SNTP time synchronization (already between the program files but recommended to download anyway)
+* pip install ntplib : for SNTP time synchronization. (already between the program files but recommended to download anyway.)
   
-* pip install ifaddr : for listing the network interfaces and their IP addresses <br>
+* pip install ifaddr : for listing the network interfaces and their IP addresses. <br>
 [github repo link of the library](https://github.com/ifaddr/ifaddr ) <br>
 
 ### Program Details
