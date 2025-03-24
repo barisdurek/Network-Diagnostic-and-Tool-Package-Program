@@ -44,5 +44,5 @@ Settings part work with settings.json file. It reads the settings from json and 
 
 ### How to run the program?
 * Just run the Python file : py project-gui.py or py project-terminal.py for Python 3.13 (Depends on your Python version. You can check your version on cmd with python --version.)
-* And here it is:<br>
+* And here it is:<br><br>
 ![Ekran görüntüsü 2025-03-24 124542](https://github.com/user-attachments/assets/caa7e616-3c74-47e1-9664-18dac2142552)
