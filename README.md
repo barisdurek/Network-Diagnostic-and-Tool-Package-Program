@@ -43,6 +43,10 @@ Allows the users to change and display socket timeout, buffer size, blocking/non
 Settings part work with settings.json file. It reads the settings from json and if user change them, writes back to json file.
 
 ### How to run the program?
-* Just run the Python file : py project-gui.py or py project-terminal.py for Python 3.13 (Depends on your Python version. You can check your version on cmd with python --version.)
-* And here it is:<br>
+* Just run the Python file on terminal
+* py project-gui.py or py project-terminal.py for Python 3.13 or just python project-gui.py or python project-terminal.py (Depends on your Python version. You can check your version on cmd with python --version. Also it may change in Visual Studio Code terminal)
+### And here it is:<br>
+* Terminal version<br>
+![Ekran görüntüsü 2025-04-10 165009](https://github.com/user-attachments/assets/3d06e494-648c-4fe0-b74b-e7b1262e09ec)
+* GUI version<br>
 ![Ekran görüntüsü 2025-03-24 124542](https://github.com/user-attachments/assets/caa7e616-3c74-47e1-9664-18dac2142552)
