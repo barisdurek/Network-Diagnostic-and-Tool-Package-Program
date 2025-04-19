@@ -5,9 +5,15 @@
 * Note: If you try to run the code in Visual Studio Code, usually it gives error because of reading settings.json, so I recommend you to run the code on Windows terminal.
 
 ### Required libraries before using
-* pip install ntplib : for SNTP time synchronization. (already between the program files but recommended to download anyway.)
+```
+pip install ntplib
+```
+* for SNTP time synchronization. (already between the program files but recommended to download anyway.)
   
-* pip install ifaddr : for listing the network interfaces and their IP addresses. <br>
+```
+pip install ifaddr
+```
+* for listing the network interfaces and their IP addresses. <br>
 [github repo link of the library](https://github.com/ifaddr/ifaddr ) <br>
 
 ### Program Details
@@ -43,8 +49,17 @@ Allows the users to change and display socket timeout, buffer size, blocking/non
 Settings part work with settings.json file. It reads the settings from json and if user change them, writes back to json file.
 
 ### How to run the program?
-* Just run the Python file on terminal
-* py project-gui.py or py project-terminal.py for Python 3.13 or just python project-gui.py or python project-terminal.py (Depends on your Python version. You can check your version on cmd with python --version. Also it may change in Visual Studio Code terminal)
+* Just run the Python file on terminal:
+```
+py project-gui.py
+py project-terminal.py
+```
+* for Python 3.13. Or:
+```
+python project-gui.py
+python project-terminal.py
+```
+* (Depends on your Python version. You can check your version on cmd with python --version. Also it may change in Visual Studio Code terminal)
 ### And here it is:<br>
 * Terminal version<br>
 ![Ekran görüntüsü 2025-04-10 165009](https://github.com/user-attachments/assets/3d06e494-648c-4fe0-b74b-e7b1262e09ec)
