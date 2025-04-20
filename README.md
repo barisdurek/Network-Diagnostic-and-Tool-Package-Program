@@ -2,7 +2,7 @@
 * It developed on Windows environment with Python.
 * There are two versions of the program. Firstly it developed to run on terminal environment. Then a GUI designed and the terminal version adapted to this GUI version.
 * In GUI version, there is no seperate error management module. If there is an error or exception case, program throws error immediately.(terminal version does not have error management system.)
-* Note: If you try to run the code in Visual Studio Code, usually it gives error because of reading settings.json, so I recommend you to run the code on Windows terminal.
+* Note: If you try to run the code in Visual Studio Code, usually it gives error because of reading settings.json, so I recommend you to run the code on your computer's terminal.
 
 ### Required libraries before using
 ```
