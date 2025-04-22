@@ -62,6 +62,6 @@ python project-terminal.py
 * (Depends on your Python version and terminal. You can check your version on cmd with python --version. Also it may change in Visual Studio Code terminal)
 ### And here it is:<br>
 * Terminal version<br>
-![Ekran görüntüsü 2025-04-10 165009](https://github.com/user-attachments/assets/3d06e494-648c-4fe0-b74b-e7b1262e09ec)
+![Ekran görüntüsü 2025-04-22 170244](https://github.com/user-attachments/assets/093c5919-9e46-4468-ad7e-4a42c44bc4db)
 * GUI version<br>
 ![Ekran görüntüsü 2025-03-24 124542](https://github.com/user-attachments/assets/caa7e616-3c74-47e1-9664-18dac2142552)
